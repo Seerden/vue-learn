@@ -14,12 +14,12 @@
 
 -  Child
 
-```
-   <script setup lang="ts">
-   defineEmits(['add']);
-   </script>
+   ```
+      <script setup lang="ts">
+      defineEmits(['add']);
+      </script>
 
-   <template>
-      <button @click="$emit('add', item)">Add item</button>
-   </template>
-```
+      <template>
+         <button @click="$emit('add', item)">Add item</button>
+      </template>
+   ```
